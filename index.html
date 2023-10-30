@@ -70,6 +70,10 @@
       transform: translateY(-5px);
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     }
+	section: #extracurriculars {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }	
 
     /* Button styles */
     .linkedin-button {
@@ -208,11 +212,18 @@
   <h2>Skills</h2>
   <p style= "font-size: 1.2rem; margin-bottom: 3rem;"> Here are some of the skills I've developed:</p>
   
+	<div class="skill">
+    <img src= "docs/assets/pics/MOS-Excel-Expert-Badge.png"  alt="Microsoft Excel Expert Certificate" width="100px">
+	  <a href="https://www.credly.com/badges/c2b5bfe7-b0d8-447a-85c0-34d82ca84570/public_url" class="certification-button">Verify Certification</a>
+
+    <p style="margin-top: 2rem;margin-bottom: 2rem">Microsoft Excel Expert Certification (Issued by Microsoft in October of 2023)&nbsp;</p>
+  </div>
+	
   <div class="skill">
     <img src= "MOS_Excel_A_Badge.png"  alt="Microsoft Excel Certificate" width="100px">
 	  <a href="https://www.credly.com/badges/804df112-0fa4-4ea1-bca8-5ec76b832603" class="certification-button">Verify Certification</a>
 
-    <p style="margin-top: 2rem;margin-bottom: 2rem">Microsoft Excel Associate Certification (Issued by Microsoft)&nbsp;</p>
+    <p style="margin-top: 2rem;margin-bottom: 2rem">Microsoft Excel Associate Certification (Issued by Microsoft in April of 2023)&nbsp;</p>
   </div>
   
   <div class="skill">
@@ -226,17 +237,13 @@
     <p style="margin-bottom: 2rem;">Tableau (Actively learning from May 2023 - Present)</p>
   </div>
   
-  <div class="skill">
-    <p>Python (Skill Level: Intermediate)</p>
-  </div>
   
   <!-- Add more skills here -->
 </section>
 	
-<section id="extracurriculars" style="background-color: #f9f9f9; padding: 1rem; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); display: flex; align-items: center;">
+<section id="extracurriculars" style="background-color: #f9f9f9; padding: 1rem; border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); display:inline-block; align-items: center;">
   <div style="margin-right: 1rem;">
-    <div style="width: 50px; height: 50px; background-color: #6b46c1; color: #fff; text-align: center; line-height: 50px; border-radius: 50%; font-weight: 700; font-size: 1.2rem;">VMC</div>
-  </div>
+   
   <div>
 	  <h2 style="font-size:1.6rem; margin-bottom: 0.5rem;">Extracurriculars</h2>
 	  <h3 style="font-size: 1.2rem;margin-bottom: 0.5rem;">Valencia College Math Club</h3>
@@ -260,7 +267,9 @@
       </div>
     </div>
   </div>
-
+<h3 style="font-size: 1.2rem;margin-top: 1.5rem;">University of Central Florida Financial Management Association</h3>
+    <p style="color: #666; font-size: 1.1rem;">Active Member | August 2023 - Present</p>
+    <p style="font-size: 1.1rem;">As a member, I have engaged in a range of enriching activities, including attending workshops and networking events. The association also provides a platform for knowledge enhancement by hosting weekly professional speaker events, where industry experts share valuable insights and experiences. Through my involvement, I've had the privilege of expanding my professional network, honing my financial acumen, and staying informed about the latest trends in the field.</p>
 </section>
 <style>
   .dropdown-button {
@@ -283,7 +292,7 @@
 
   /* Style the dropdown content wrapper */
   .dropdown-content-wrapper {
-    display: flex;
+    display: inline-flex;
   }
 
   /* Style the image within the dropdown content */
